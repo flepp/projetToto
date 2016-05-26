@@ -1,7 +1,0 @@
-{
-    "name": "etudiant/projet-toto",
-    "description": "Projet BDD webforce3",
-    "require": {
-        "whatsma/zodiacsign": "dev-master"
-    }
-}
