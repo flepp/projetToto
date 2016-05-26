@@ -1,0 +1,13 @@
+student.php
+----------------------
+* Récupérer le paramètre d'URL stu_id
+* Récupérer toutes les données sur le student passé en paramètre d'URL
+* Afficher ces données (affichage=view)
+
+list.php
+----------------------
+* mettre un lien sur le nom et le prénom de chaque élève pour qu'il pointe sur student.php avec le bon paramètre d'URL
+
+add.php
+----------------------
+* finir l'exo commencé lundi sur l'ajout d'étudiant, et le mettre dans add.php (retirer la liste d'étudiant qui était dans l'exo)

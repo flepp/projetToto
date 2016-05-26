@@ -1,0 +1,185 @@
+	*{
+
+		box-sizing: border-box;
+	}
+
+	html,
+	body{
+
+		height: 100%;
+		margin: 0;
+	}
+
+	body{
+
+		border-left: 10px solid #34495e;
+		height: 100%;
+		padding: 15px;
+		font-family: sans-serif;
+		background-color: #ecf0f1;
+	}
+
+	a{
+
+		color: #000;
+		text-decoration: none;
+		letter-spacing: 1px
+		font-weight: bold;
+		display: block;
+	}
+
+	h3{
+
+		color: #fff;
+		padding: 35px;
+		background-color: #27ae60;
+		margin-top: 0;
+	}
+
+	h3 span{
+
+		float: right;
+	}
+
+	table{
+
+		width: 100%;
+	}
+
+	fieldset{
+
+		margin: 20px 0 0 0;
+	}
+
+	table td{
+
+		padding: 10px;
+	}
+
+	tbody tr:nth-child(odd){
+
+		background-color: lightgray;
+	}
+
+	ul,
+	li{
+
+		padding: 0;
+		list-style-type: none;
+	}
+
+	ul a{
+
+		padding: 10px 35px;
+		
+	}
+
+	ul li:nth-child(odd) a{
+
+		padding: 10px 30px;
+		
+	}
+
+	.infos li{
+
+		padding: 15px 30px;
+	}
+
+	.infos li:nth-child(odd){
+
+		padding-left: 25px;
+		
+	}
+
+     li:nth-child(odd){
+
+		background-color: lightgray;
+		border-left: 5px solid #27ae60;
+		
+	}
+
+	nav{
+
+		overflow: hidden;
+	}
+
+	nav a{
+
+		padding: 15px 30px;
+		margin-bottom: 3px;
+		color: #fff;
+		background-color: #27ae60;
+		text-decoration: none;
+		display: inline-block;
+		vertical-align: middle;
+		text-transform: uppercase;
+		font-size: 80%;
+		
+	}
+
+	nav a:last-of-type{
+
+		float: right;
+		background-color: #c0392b;
+	}
+
+	.container{
+
+		margin: auto;
+		max-width: 1000px;
+	}
+
+	.pagination{
+
+		overflow: hidden;
+		padding: 15px 0;
+	}
+
+	.pagination a {
+
+		padding: 10px;
+		background-color: #27ae60;
+		color: #fff;
+	}
+
+	.pagination :first-child{
+
+		float: left;
+	}
+	.pagination :only-of-type,
+	.pagination :nth-child(2){
+
+		float: right;
+	}
+
+	.search-container{
+
+		padding: 10px 0;
+		clear: both;
+	}
+
+	.search-field{
+
+		width: 100%;
+		position: relative;
+		
+	}
+
+	.search-field input{
+
+		padding: 10px;
+		width: 100%;
+	}
+
+	.search-field button{
+
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: #27ae60;
+		color: #fff;
+		border:  none;
+	}

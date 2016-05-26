@@ -1,0 +1,16 @@
+index.php
+---------------------
+Afficher les statistiques sur le nombre d'étudiants par ville
+
+SQL Exemple : nombre de villes par pays (avec au moins 3 villes, et triés par ordre décroissant)
+----------------------
+SELECT COUNT(*) AS nb,
+  country.cou_name
+FROM
+  city
+INNER JOIN
+  country ON country.cou_id = city.cou_id
+GROUP BY
+  cou_name
+HAVING nb >= 3
+ORDER BY nb DESC
